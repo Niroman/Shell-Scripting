@@ -1,0 +1,24 @@
+
+#!-> Shebang
+1. First Line gives the path of the script
+2. To execute the script use /bin/bash <Filename>
+3. Store the Shell Script using .sh
+4. To run a script ->./<FILENAME>
+Permissions explanation
+'-rw-r--r-- 1 vagrant vagrant File name'
+1. For the owner
+	a. r - Read (4)
+	b. w - Write (2)
+	c. x - Executable (1)
+2. For the Vagrant Group Members
+3. For Everyone 
+
+For Giving Permissions to the Files
+1. Execcutable -> chmod 755 <FILENAME>
+
+Commands for Linux
+1. type -> Tells the type of the command
+2. type -a -> Lists the type of the command and the path of it
+3. help -> Gives explanation of the 'SHELL BUILTIN' commands that can be executed.EG: echo
+4. man -> Description of the user commands that are not shell bultin.Eg: uptime
+5. 
